@@ -18,7 +18,6 @@ DBSession = sessionmaker(bind=engine)
 # session.rollback()
 session = DBSession()
 
-
 # Menu for UrbanBurger
 restaurant1 = Restaurant(name="Urban Burger")
 
